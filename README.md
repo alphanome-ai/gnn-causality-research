@@ -6,8 +6,17 @@
 
 Exploring Causal Inferences in Finance with Graph Neural Networks
 
-## Prepare repository
+## Access the Comprehensive Project Plan
 
-Git clone this repository, change the directory to it, and then install PyPI dependencies:
+For a detailed outline of our methodologies, objectives, and step-by-step execution strategies, please view our [**Project Plan**](project-plan.md).
 
-`poetry install`
+## Repository Setup Instructions
+
+Clone the repository, navigate to the directory, and install the required PyPI dependencies with the following commands:
+
+
+```bash
+git clone git@github.com:alphanome-ai/gnn-causality-exploration.git
+cd gnn-causality-exploration
+poetry install
+```
