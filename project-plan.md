@@ -53,7 +53,6 @@ This could involve:
 - Connect discussions in the text with nearby presented financial figures.
 - Management's Discussion and Analysis (MD&A) section: extract sentiments or forward-looking statements that may correlate with financial projections or historical data.
 - Identify patterns or frequency of certain risk-related keywords that could correlate with financial outcomes or contingencies.
-- `...`
 
 Develop a method to correlate textual sections with the extracted financial metrics.
 
