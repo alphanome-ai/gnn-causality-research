@@ -7,7 +7,7 @@ Research Project by Alphanome.AI
 
 Our project aims to develop a sophisticated causal AI framework capable of uncovering and quantifying causal relationships from SEC filings that directly impact company performance metrics, such as revenue growth and profitability. By meticulously parsing through the vast expanse of structured and unstructured data available in 10-K and 10-Q reports, along with other relevant financial disclosures, the framework will identify key financial indicators, management discussion analysis, and market conditions that are causally related to a company's financial outcomes.
 
-We aspire to translate these findings into actionable insights that can inform strategic business decisions, investment choices, and risk assessment strategies. Through the careful application of advanced natural language processing techniques and causal inference algorithms, our approach will be designed to not only establish correlations but also to distinguish causation from mere association, providing a more robust basis for predictions and business intelligence. To accomplish this, the framework will incorporate advanced machine learning techniques, specifically leveraging Graph Neural Networks (GNNs) alongside traditional causal analysis methods. The integration of GNNs aims to capture the complex, interconnected relationships between variables in high-dimensional data that often escape more conventional statistical model
+We aspire to translate these findings into actionable insights that can inform strategic business decisions, investment choices, and risk assessment strategies. Through the careful application of advanced natural language processing techniques and causal inference algorithms, our approach will be designed to not only establish correlations but also to distinguish causation from mere association, providing a more robust basis for predictions and business intelligence. To accomplish this, the framework will incorporate advanced machine learning techniques, specifically leveraging Graph Neural Networks (GNNs) alongside traditional causal analysis methods. The integration of GNNs aims to capture the complex, interconnected relationships between variables in high-dimensional data that often escape more conventional statistical models.
 
 **This objective will be addressed by achieving the following key goals:**
 
@@ -18,33 +18,20 @@ We aspire to translate these findings into actionable insights that can inform s
 - Validate the reliability and consistency of our causal AI framework by back-testing findings against historical data and performance outcomes, ensuring methodological robustness and practical applicability.
 - Continuously refine our causal inference models by integrating feedback from cross-functional teams and keeping abreast of the latest academic and industry research in the fast-evolving field of causal AI.
 
-Our commitment is to bridge the gap between massive data availability and strategic knowledge application, empowering our stakeholders with a cutting-edge tool to make more informed, data-driven decisions that can propel their business towards sustainable growth and enhanced profitability.
+Our commitment is to bridge the gap between massive data availability and strategic knowledge application, empowering our stakeholders with a cutting-edge tool to make more informed, data-driven decisions that can propel their business toward sustainable growth and enhanced profitability.
 
 # Project Plan
 
-## Dataset Preparation
+## Data Collection
 
-- Download a large sample set of 10-Q filings.
-- Test the sec-parser: https://github.com/alphanome-ai/sec-parser accuracy with a diverse set of 10-Q documents. 
-- Create issues to eliminate the errors found in testing
-- Prepare an inventory of datasets to be used and prepare them for analysis using sec-parser.
-- Prepare examples of how the data is extracted using sec-parser
-- `...`
+### Improve `sec-parser` accuracy
+- Download a large and diverse set of SEC EDGAR 10-Q filings.
+- Parse the filings with [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser). 
+- Create [Github Issues](https://github.com/alphanome-ai/sec-parser/issues) to list any errors found in the parser, then fix [the issues](https://github.com/alphanome-ai/sec-parser/issues).
 
-## Textual Data Extraction
-
-- To easily extract and transform elements from documents formatted in a 
-- Use natural language processing tools to extract text from the 10-Q reports. This could involve parsing PDFs or HTML documents and might require handling the XBRL format. 
-
-## Financial Data Extraction
-
-Extract key financial metrics from the reports. For structured data like XBRL, you can use specialized parsers. For unstructured data, you might need to develop or use existing algorithms to recognize and extract financial figures.
-
-## Dataset Preparation
-
-- Make an inventory of datasets to be used and prepare them for analysis, which may include cleaning, normalization, and ensuring data privacy compliance.
-- Include possible sources for these datasets, for example, 10-Q filings, stock market data, or proprietary company data.
-- Discuss how the parser will be used to extract relevant information from unstructured data sources like 10-Q filings.
+### Create datasets
+- Create a pipeline that includes [sec-parser](https://github.com/alphanome-ai/sec-parser) and other tools to extract data from SEC filings, and elsewhere. Include documentation, examples, tests, and robustness measures.
+- Run the pipeline for a set of companies and create a dataset of extracted data.
 
 ## Textual Analysis
 
@@ -55,7 +42,7 @@ Perform text analysis on the extracted textual sections to identify topics or se
 
 ## Data Correlation
 
-Identify correlated items (textual or financial) first from individual and then several different 10-Q  documents by using as an assistant LLLs and your own judgment to validate the findings. 
+Identify correlated items (textual or financial) first from individual and then several different 10-Q  documents by using as an assistant LLMs and your own judgment to validate the findings. 
 
 This could involve:
 - Creating a mapping of commonly used financial language to the financial metrics (e.g., "revenue growth" to quarterly revenue changes).
@@ -73,7 +60,7 @@ Develop a method to correlate textual sections with the extracted financial metr
 
 ## Visualization
 
-- Choose a visualization tool capable of handling graph-based data, such as Neo4j with Bloom, Gephi, or a Python library like NetworkX.
+- Choose a visualization tool capable of handling graph-based data.
 - Design the visualization to represent different types of connections (e.g., solid lines for direct references, dashed lines for inferred relationships).
 - Include interactive features that allow users to click on a node (textual section or financial metric) to see all connected elements and the nature of their connections.
 
