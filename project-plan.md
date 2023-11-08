@@ -40,6 +40,10 @@ Perform text analysis on the extracted textual sections to identify topics or se
 - Named entity recognition to locate mentions of financial metrics.
 - Sentiment analysis to gauge the tone surrounding the discussion of metrics.
 
+Links to some useful resources:
+- [Metaculus Presents — Causal Inference and LLMs: A New Frontier](https://www.youtube.com/watch?v=PT1NoaeYwDs)
+- [SOTA Entity Recognition English Foundation Model by NuMind](https://huggingface.co/numind/generic-entity_recognition-v1)
+
 ## Data Correlation
 
 Identify correlated items (textual or financial) first from individual and then several different 10-Q  documents by using as an assistant LLMs and your own judgment to validate the findings. 
