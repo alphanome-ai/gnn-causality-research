@@ -8,7 +8,7 @@ Exploring Causal Inferences in Finance with Graph Neural Networks
 
 ## [Access the Comprehensive Project Plan](project-plan.md)
 
-For a detailed outline of our methodologies, objectives, and step-by-step execution strategies, please view our Project Plan with the link above. To contribute join our [**Discord**](https://discord.gg/2MC3uJhBxs) to #OpenSourceWallStreet.
+For a detailed outline of our methodologies, objectives, and step-by-step execution strategies, please view our Project Plan with the link above. To contribute join our [**Discord**](https://discord.gg/2MC3uJhBxs) to *#OpenSourceWallStreet*.
 
 ## Repository Setup Instructions
 
