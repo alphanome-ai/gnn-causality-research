@@ -1,4 +1,4 @@
-# gnn-causality-exploration
+# gnn-causality-research
   <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698"></a>
   <a href="http://hits.dwyl.com/alphanome-ai/gnn-causality-exploration"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Falphanome-ai%2Fgnn-causality-exploration.json%3Fshow%3Dunique" alt="HitCount" /></a>
   <a href="https://twitter.com/alphanomeai"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/alphanomeai"></a>
