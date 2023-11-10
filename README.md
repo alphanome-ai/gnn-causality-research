@@ -1,7 +1,7 @@
 # gnn-causality-research
   <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698?logo=discord&logoColor=white&style=flat"></a>
-  <a href="https://twitter.com/alphanomeai"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/alphanomeai"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/alphanome-ai/gnn-causality-exploration?color=success" alt="Licence"></a>
+  <a href="https://twitter.com/alphanomeai"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/alphanomeai"></a>
 
 Exploring Causal Inferences in Finance with Graph Neural Networks
 
